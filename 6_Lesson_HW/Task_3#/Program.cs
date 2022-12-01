@@ -5,65 +5,71 @@
 // 3 4 5
 // 3+5=8, 1+2+3=6, 8-6=2
 
-int Prompt (string message)
+void FillArray(int[,] image)
 {
-    Console.Write(message);
-    return int.Parse(Console.ReadLine());
+    for (int i = 0; i < image.GetLength(0); i++)
+    {
+        for (int j = 0; j < image.GetLength(1); j++)
+        {
+            image[i, j] = new Random().Next(1, 10);
+        }
+    }
 }
 
-void PrintArray(int[,] matr)
+void PrintArray(int[,] image)
 {
-
-    for (int i = 0; i < matr.GetLength(0); i++)
+    for (int i = 0; i < image.GetLength(0); i++)
     {
-        for (int j = 0; j < matr.GetLength(1);j++)
+        for (int j = 0; j < image.GetLength(1); j++)
         {
-            Console.Write($"{matr[i, j]} ");
+            Console.Write($"{image[i, j]} ");
         }
         Console.WriteLine();
     }
 }
 
-void FillArray(int[,] matr)
-{
-    for (int i = 0; i < matr.GetLength(0); i++)
-    {
-        for (int j = 0; j < matr.GetLength(1); j++)
-        {
-            matr[i,j] = new Random().Next(1,10);
-        }
-    }
-}
-
-int SumMaxRows (int[,] matr)
+int MaxArray(int[,] image) // Сумма максимумов.
 {
     int sum = 0;
-    for (int i = 0; i < matr.GetLength(0); i++)
+    for (int j = 0; j < image.GetLength(0); j++)
     {
-        for (int j = 0; j < matr.GetLength(1); j++)
+        int tempMax = image[j, 0];
+        for (int i = 0; i < image.GetLength(1); i++)
         {
-            int maxValue = matr[i,j];
-            if (maxValue < matr[i+1,j])
+            if (tempMax < image[j, i])
             {
-                maxValue = matr[i+1,j];
+                tempMax = image[j, i];
             }
-            sum =+ maxValue;
         }
+        sum += tempMax;
     }
     return sum;
 }
 
-int rows = Prompt("Enter the quantity of rows in your matrix: ");
-int columns = Prompt("Enter the quantity of columns in your matrix: ");
+int MinArray(int[,] image) // Сумма минимумов.
+{
+    int sum = 0;
+        for (int j = 0; j < image.GetLength(1); j++)
+        {
+        int tempMin = image[0, j];
+        for (int i = 0; i < image.GetLength(0); i++)
+        {
+            if (tempMin > image[i, j])
+            {
+                tempMin = image[i, j];
+            }
+        }
+        sum += tempMin;
+    }
+    return sum;
+}
 
-int[,] matrix = new int [rows, columns];
+int[,] matrix = new int[2, 3];
 FillArray(matrix);
 PrintArray(matrix);
-int sumRows = SumMaxRows(matrix);
-
-Console.WriteLine(sumRows);
-
-// PrintArray(matrix);
-// FillArray(matrix);
-// Console.WriteLine();
-// PrintArray(matrix);
+Console.Write($"Сумма максимумов: ");
+Console.WriteLine(MaxArray(matrix));
+Console.Write($"Сумма минимумов: ");
+Console.WriteLine(MinArray(matrix));
+Console.Write($"Разница сумм: ");
+Console.WriteLine(MaxArray(matrix) - MinArray(matrix));
