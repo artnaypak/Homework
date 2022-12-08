@@ -1,0 +1,15 @@
+C:\Users\naypa\OneDrive\Рабочий стол\GeekBrains\3_Знакомство с языками программирования\Homework\7_Lesson_HW\Task_2_No_Cycle\obj\Debug\net6.0\Task_2_No_Cycle.csproj.AssemblyReference.cache
+C:\Users\naypa\OneDrive\Рабочий стол\GeekBrains\3_Знакомство с языками программирования\Homework\7_Lesson_HW\Task_2_No_Cycle\obj\Debug\net6.0\Task_2_No_Cycle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\naypa\OneDrive\Рабочий стол\GeekBrains\3_Знакомство с языками программирования\Homework\7_Lesson_HW\Task_2_No_Cycle\obj\Debug\net6.0\Task_2_No_Cycle.AssemblyInfoInputs.cache
+C:\Users\naypa\OneDrive\Рабочий стол\GeekBrains\3_Знакомство с языками программирования\Homework\7_Lesson_HW\Task_2_No_Cycle\obj\Debug\net6.0\Task_2_No_Cycle.AssemblyInfo.cs
+C:\Users\naypa\OneDrive\Рабочий стол\GeekBrains\3_Знакомство с языками программирования\Homework\7_Lesson_HW\Task_2_No_Cycle\obj\Debug\net6.0\Task_2_No_Cycle.csproj.CoreCompileInputs.cache
+C:\Users\naypa\OneDrive\Рабочий стол\GeekBrains\3_Знакомство с языками программирования\Homework\7_Lesson_HW\Task_2_No_Cycle\bin\Debug\net6.0\Task_2_No_Cycle.exe
+C:\Users\naypa\OneDrive\Рабочий стол\GeekBrains\3_Знакомство с языками программирования\Homework\7_Lesson_HW\Task_2_No_Cycle\bin\Debug\net6.0\Task_2_No_Cycle.deps.json
+C:\Users\naypa\OneDrive\Рабочий стол\GeekBrains\3_Знакомство с языками программирования\Homework\7_Lesson_HW\Task_2_No_Cycle\bin\Debug\net6.0\Task_2_No_Cycle.runtimeconfig.json
+C:\Users\naypa\OneDrive\Рабочий стол\GeekBrains\3_Знакомство с языками программирования\Homework\7_Lesson_HW\Task_2_No_Cycle\bin\Debug\net6.0\Task_2_No_Cycle.dll
+C:\Users\naypa\OneDrive\Рабочий стол\GeekBrains\3_Знакомство с языками программирования\Homework\7_Lesson_HW\Task_2_No_Cycle\bin\Debug\net6.0\Task_2_No_Cycle.pdb
+C:\Users\naypa\OneDrive\Рабочий стол\GeekBrains\3_Знакомство с языками программирования\Homework\7_Lesson_HW\Task_2_No_Cycle\obj\Debug\net6.0\Task_2_No_Cycle.dll
+C:\Users\naypa\OneDrive\Рабочий стол\GeekBrains\3_Знакомство с языками программирования\Homework\7_Lesson_HW\Task_2_No_Cycle\obj\Debug\net6.0\refint\Task_2_No_Cycle.dll
+C:\Users\naypa\OneDrive\Рабочий стол\GeekBrains\3_Знакомство с языками программирования\Homework\7_Lesson_HW\Task_2_No_Cycle\obj\Debug\net6.0\Task_2_No_Cycle.pdb
+C:\Users\naypa\OneDrive\Рабочий стол\GeekBrains\3_Знакомство с языками программирования\Homework\7_Lesson_HW\Task_2_No_Cycle\obj\Debug\net6.0\Task_2_No_Cycle.genruntimeconfig.cache
+C:\Users\naypa\OneDrive\Рабочий стол\GeekBrains\3_Знакомство с языками программирования\Homework\7_Lesson_HW\Task_2_No_Cycle\obj\Debug\net6.0\ref\Task_2_No_Cycle.dll
